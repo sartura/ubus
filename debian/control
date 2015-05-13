@@ -1,0 +1,15 @@
+Source: ubus
+Section: devel
+Priority: optional
+Maintainer: Luka Perkov <luka.perkov@sartura.hr>
+Build-Depends: debhelper (>= 8.0.0), cmake
+Standards-Version: 3.9.4
+Homepage: http://nbd.name/gitweb.cgi?p=luci2/ubus.git
+Vcs-Git: git://nbd.name/luci2/ubus.git
+Vcs-Browser: http://nbd.name/gitweb.cgi?p=luci2/ubus.git;a=summary
+
+Package: ubus
+Architecture: amd64 i386
+Depends: libubox, libjson-c-dev
+Description: OpenWrt bus system daemon
+ An embedded bus system developed for OpenWrt. It is like dbus but simple and small.
